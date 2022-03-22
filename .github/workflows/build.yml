@@ -1,4 +1,4 @@
-name: md2zhihu
+name: build README.md
 on: [push]
 jobs:
   md2zhihu:
