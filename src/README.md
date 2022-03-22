@@ -4,13 +4,12 @@ A list of bugs, mistakes, or misleading traps ever made in distributed consensus
 
 **DO NOT EDIT README.md directly**. It is built from [src/README.md](src/README.md).
 
-# Types
+#### Item types
 
 - **Bug**: a bug that will break the consensus.
-
 - **Trap**: Not a bug, but somehow misleading. People may believe it is a bug.
 
-# List
+#### List
 
 
 ![](list/classic-paxos-forget-decided-value.md)

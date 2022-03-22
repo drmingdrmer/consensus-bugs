@@ -2,7 +2,7 @@
 
 This is not a bug but people tend to interpret it in the wrong way.
 
-### The issue:
+#### The issue:
 
 ```
 1. P1 sends 'prepare 1' to AB
@@ -20,7 +20,7 @@ This is not a bug but people tend to interpret it in the wrong way.
     Status is: A(-:-,100) B(100:b,100) C(1:a,-). The chosen proposal is abandon, Paxos fails.
 ```
 
-### Explanation:
+#### Explanation:
 
 Missed something in step 7. 
 When C processes `accept 100:b` it sets its state to `C(100:b,100)`. 
@@ -33,8 +33,7 @@ Sadly:
 > implementations and they **all had the bug submitted by the OP**!
 
 
-### References
+#### References
 
-[Marc Brooker's blog](https://brooker.co.za/blog/2021/11/16/paxos.html)
-
-[On stackoverflow](https://stackoverflow.com/questions/29880949/contradiction-in-lamports-paxos-made-simple-paper)
+- [Marc Brooker's blog](https://brooker.co.za/blog/2021/11/16/paxos.html)
+- [On stackoverflow](https://stackoverflow.com/questions/29880949/contradiction-in-lamports-paxos-made-simple-paper)
