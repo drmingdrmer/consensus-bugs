@@ -13,7 +13,7 @@ A list of bugs, mistakes, or misleading traps ever made in distributed consensus
 # List
 
 
-- ![](list/classic-paxos-forget-decided-value.md)
+![](list/classic-paxos-forget-decided-value.md)
 
 
 # Contribution
